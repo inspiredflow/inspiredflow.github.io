@@ -1,10 +1,14 @@
-[{
-    "relation": ["delegate_permission/common.handle_all_urls"],
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.example.yoga_app",
-      "sha256_cert_fingerprints":
-      ["E2:BD:E5:8D:2E:B7:6C:5A:A5:36:95:7D:83:8B:76:B5:BB:19:EA:FA:2B:EF:D3:77:BA:43:64:20:A4:AE:20:EF"]
+      "package_name": "com.EdgeEffectMedia.MyYoga",
+      "sha256_cert_fingerprints": [
+        "E2:04:75:01:6C:5B:83:CB:7B:C6:1B:68:33:BB:32:73:76:E9:40:D1:33:B7:5D:00:F1:07:4E:2A:E6:7B:0B:AC"
+      ]
     }
-  }]
-  
+  }
+]
