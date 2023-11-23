@@ -10,7 +10,13 @@
     <!-- Custom styles for this template -->
     <link href="./style.css" rel="stylesheet">
 
-    
+    <script type="text/javascript">
+        let d = document.getElementById("extra-link");
+        const node = document.createElement("a");
+        node.href = window.location.href;
+        node.textContent = window.location.href;
+        d.appendChild(node); 
+    </script>
   </head>
   <body>
     <div style="text-align: center; padding-top: 1cm;">
@@ -28,12 +34,5 @@
     </div>
     </div>
   </body>
-    <script type="text/javascript">
-        let d = document.getElementById("extra-link");
-        const node = document.createElement("a");
-        node.href = window.location.href;
-        node.textContent = window.location.href;
-        d.appendChild(node); 
-    </script>
 </html>
 
