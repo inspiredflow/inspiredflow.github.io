@@ -1,11 +1,6 @@
 {
   "hosting": {
     "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/node_modules/**",
-      "!/.well-known/**"
-    ],
     "headers": [
       {
         "source": "/.well-known/assetlinks.json",
@@ -18,7 +13,11 @@
       }
     ],
     "appAssociation": "AUTO",
-    "rewrites": [ { "source": "/link/flow/**", "dynamicLinks": true } ]
+    "rewrites": [
+      {
+        "source": "/link/flow/**",
+        "destination": "/index.html"
+      }
+    ]
   }
-  
 }
