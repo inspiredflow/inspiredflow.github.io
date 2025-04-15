@@ -11,13 +11,6 @@
           }
         ]
       }
-    ],
-    "appAssociation": "AUTO",
-    "rewrites": [
-      {
-        "source": "/link/flow/**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
